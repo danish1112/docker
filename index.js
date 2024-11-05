@@ -46,7 +46,7 @@ app.use(session({
 }));
 
 app.get('/api/v1', (req, res) => {
-    res.send('<h1>response is from docker</h1>');
+    res.send('<h1>response is from docker!</h1>');
     console.log("hello docker");
 });
 
